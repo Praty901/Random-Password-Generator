@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+    
+    <form id="passwordform">
+        
+        <h1 style="color: rgba(1, 1, 1, 0.722);">Random Password</h1>
+        <input readonly id="in"><br><br>
+        <input type="checkbox" id="includealp" class="rad">
+        <label for="includealp">Include Alphabets</label>
+        <br>
+        <input type="checkbox"  id="includenum" class="rad">
+        <label for="includenum">Include Numbers</label>
+        <br>
+        <input type="checkbox"  id="includesymbol" class="rad">
+        <label for="includesymbol">Include Symbols</label>
+        <br>
+        <input type="checkbox"  id="includeCap" class="rad">
+        <label for="includeCap">Include Capital Alphabets</label>
+        
+        <br>
+        <label for="length" >Length:</label>
+        <input type="number" id="length" >
+
+        <br>
+        <br>
+        
+        
+    </form>
+    <button id="Btn" onclick="generatepass()">Generate</button>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

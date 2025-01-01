@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-image: url('photo_2024-09-22_17-35-46.jpg'); /* Background behind the div */
+    background-size: cover;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+#wrapper{
+    width: 50%;
+    height: 85%;
+    padding: 20px;
+    border:3px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,-2);
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+#in{
+    width: 80%;
+    text-align: center;
+    font-size: 130%;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.rad{
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+label{
+    font-weight: bold;
+}
+#length{
+    text-align: center;
+    font-size: 150%;
+    width: 10%;
+    margin-top: 40px;
+    border:2px solid black;
+    border-radius: 2px;
+    
+}
+#Btn{
+    font-size: 2em;
+    font-family: fantasy;
+    background-color: rgba(255, 0, 0, 0.644);
+    margin-top:20px;
+}
+
